@@ -22,6 +22,7 @@ public class HasilActivity extends AppCompatActivity {
         int yearNow = Calendar.getInstance().get(Calendar.YEAR);
         int tahunLahir = yearNow - umur;
         TextView tvHasil = (TextView) findViewById(R.id.textViewHasil);
+        tvHasil.setText(nama + " lahir pada tahun "+tahunLahir);
         findViewById(R.id.buttonBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

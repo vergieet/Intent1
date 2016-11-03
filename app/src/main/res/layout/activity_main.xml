@@ -13,17 +13,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:id="@+id/editTextNama"
-        android:layout_weight="1"
         android:hint="Nama"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTextUmur"
         android:inputType="numberSigned"
-        android:ems="10"
-        android:layout_weight="1"
         android:hint="Umur"/>
 
     <Button
